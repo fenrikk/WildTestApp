@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "106164234389",
+    "project_id": "wildtestapp",
+    "storage_bucket": "wildtestapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106164234389:android:d5c3aecd041b2c7d75539c",
+        "android_client_info": {
+          "package_name": "com.myapp.wildtestapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106164234389-h5fs9p1uoijnentvddon94bh1301ic2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYI-TdYuoIx33nn2Ff65a5vzsPomGGL8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106164234389-h5fs9p1uoijnentvddon94bh1301ic2u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
