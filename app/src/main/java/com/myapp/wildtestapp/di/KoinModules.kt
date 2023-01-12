@@ -13,7 +13,7 @@ val dataModule = module {
     single<FirebaseRemoteConfig> {
         val remoteConfig: FirebaseRemoteConfig = Firebase.remoteConfig
         val configSettings = remoteConfigSettings {
-            minimumFetchIntervalInSeconds = 3600
+            minimumFetchIntervalInSeconds = 0
         }
         remoteConfig.setConfigSettingsAsync(configSettings)
         remoteConfig.setDefaultsAsync(R.xml.remote_config_defaults)

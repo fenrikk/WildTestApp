@@ -1,9 +1,10 @@
+import WebFragmentArgs.WebFragmentArgs
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.myapp.wildtestapp.databinding.FragmentStartBinding
+import androidx.navigation.fragment.navArgs
 import com.myapp.wildtestapp.databinding.FragmentWebBinding
 
 class WebFragment : Fragment() {
@@ -21,6 +22,6 @@ class WebFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        val args: WebFragmentArgs by navArgs()
     }
 }

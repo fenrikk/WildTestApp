@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.myapp.wildtestapp.databinding.FragmentStartBinding
 import com.myapp.wildtestapp.viewmodel.StartViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
@@ -26,5 +27,14 @@ class StartFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         viewModel
+
+        viewModel.getData().observe(viewLifecycleOwner) {
+            if (it.pass) {
+                findNavController().navigate(StartFragmentDirections.actionStartFragmentToGameMenuFragment())
+            } else {
+                val action = StartFragmentDirections.actionStartFragmentToWebFragment(it.link)
+                findNavController().navigate(action)
+            }
+        }
     }
 }
