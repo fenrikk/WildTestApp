@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">WildTestApp</string>
     <string name="wild_test_app">WILD TEST APP</string>
+    <string name="go_left">GO LEFT</string>
+    <string name="go_straight">GO STRAIGHT</string>
+    <string name="go_right">GO RIGHT</string>
+    <string name="click_enemy_to_damage_enemy_and_defeat_it">CLICK ENEMY TO DAMAGE ENEMY AND DEFEAT IT</string>
+    <string name="enemy_hp_700_700">ENEMY HP: 700/700</string>
+    <string name="enemy_hp_500_500">ENEMY HP: 500/500</string>
+    <string name="enemy_hp_300_300">ENEMY HP: 300/300</string>
+    <string name="story">You are an astronaut of a special rescue group. A week ago, a group of researchers on the moon stopped communicating. Your superiors sent you on an emergency basis to investigate this incident. Arriving at the site of the lunar base, you found that the base was completely looted. The tracks led in three directions. To the left, to the largest krator on the moon. Straight - to the basement of the research center, to the right - to the dump of research equipment and spaceships. Make your choice, where to go?</string>
 </resources>

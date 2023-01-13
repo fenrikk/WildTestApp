@@ -8,7 +8,7 @@ import com.myapp.wildtestapp.model.ReceivingData
 import com.myapp.wildtestapp.other.GAME_PASS
 import com.myapp.wildtestapp.other.LINK
 
-class StartViewModel(
+class MainViewModel(
     private val firebaseRemoteConfig: FirebaseRemoteConfig
 ) : ViewModel() {
 

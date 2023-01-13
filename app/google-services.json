@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "106164234389",
+    "firebase_url": "https://wildtestapp-default-rtdb.europe-west1.firebasedatabase.app",
     "project_id": "wildtestapp",
     "storage_bucket": "wildtestapp.appspot.com"
   },
